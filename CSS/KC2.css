@@ -1,0 +1,80 @@
+/*部分属性及应用*/
+/*--------------------------------------------*/
+/*CSS背景*/
+body{
+  background-color: #000000;
+  background-image: url('...');
+  background-repeat: no-repeat;/*判断背景图是否重复及如何重复*/
+  background-position: left;/*设置起始位置*/
+}
+/*CSS文本*/
+h1{
+  text-align: center;/*设置对齐方式*/
+  text-align: justify;/*每一行被展开为宽度相等，左，右外边距是对齐*/
+  color: red;
+  text-decoration: overline;/*修饰文本如：下划线，删除线。。。*/
+  text-indent: 50px;/*为文本添加缩进*/
+  line-height: 50%;/*设置行高，一般默认大约110%-120%*/
+  letter-spacing: -3px;/*设置字符间的距离*/
+  word-spacing: 30px;/*设置单词间的距离*/
+  text-shadow: 2px 2px #007B7B;/*设置文本阴影效果*/
+  direction: ltr;/*文本方向*/
+  /*。。。。。还有很多＝。＝*/
+}
+/*CSS字体、字形*/
+p{
+  font-size: 20px;
+  font-family: "Times New Roman";/*字体*/
+  font-style: italic;/*字体样式：正常、斜体和倾斜的文字*/
+  font-weight: 200px;/*字体加粗*/
+  font-variant: small-caps;/*字体大小写设置*/
+}
+/*CSS列表样式（ul）*/
+.ul{
+  list-style-type: circle;/*列表项标记的类型*/
+}
+/*CSS表格*/
+table{
+  border: 1px solid #007B7Z;/*设置边框*/
+}
+/*CSS边框*/
+#input{
+  border-style: double;/*边框样式。即用即查*/
+  border: 1px double red;/*简写边框设置：宽度+style+color*/
+}
+/*外边距Margin和内边距Padding设置*/
+div{
+  margin: 2px 3px 4px 5px;/*上右下左，可以简写*/
+  padding: 2px 5px 6px;/*与上雷同，上，左右，下*/
+}
+/*CSS显示*/
+.div p{
+  visibility: hidden;/*隐藏元素，但是仍然占有布局空间*/
+  display: none;/*隐藏元素，并且不再占有空间*/
+  display: block;/*设置为块元素*/
+}
+/*CSS定位*/
+div.p{
+  position: absolute;/*相对于父元素*/
+  position: fixed;/*相对于浏览器位置固定*/
+  position: relative;/*相对其位置的正常位置定位*/
+  position: static;/*无定位，正常位置*/
+}
+/*CSS浮动*/
+text{
+  float: left;/*向左浮动*/
+  clear: both;/*清除浮动，元素周围就不会出现浮动*/
+}
+/*CSS对齐*/
+.center{
+  padding: 2px 0px;/*使用padding进行上下居中*/
+}
+
+.center1{
+  padding: 2px 0px;
+  text-align: center;/*利用组合实现垂直和水平居中*/
+}
+.center2{
+  line-height: 200px;
+  height: 200px;/*利用这两个属性值相等实现垂直和水平居中*/
+}

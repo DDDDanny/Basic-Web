@@ -11,6 +11,11 @@
   width: 1000px;
 }
 
+/*定义标签css*/
+p{
+  font-family:"Times New Roman";
+}
+
 #Header{
   background-color:#008B8B;
   height:20px;

@@ -1,0 +1,39 @@
+/*关联文档K6.html-表格制作相关样式*/
+/*------------------------------------------------------------*/
+#table{
+  width: 50%;
+  border-collapse: collapse;
+  margin: 300px;
+  /*border: 1px solid black;*/
+}
+#table tr, #table td{
+  border: 1px solid #008f40;
+}
+
+#heard{
+  color: #ffffff;
+  background-color: #8ebf24;
+  text-align: center;
+}
+
+#heard>td{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+tbody .low{
+  background-color: #ffffff;
+}
+
+tbody tr{
+  background-color: #d8e398;
+}
+tbody td{
+  padding: 10px 0px 10px 12px;
+  font-size: 15px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/*第一列居中*/
+/*.center{
+  text-align: center;
+}*/

@@ -34,6 +34,20 @@ p{
   float:left;
 }
 
+/*子选择器，选择指定标签元素的---第一代子元素->使用ID*/
+#Left>ul{
+  border:1px solid red;
+}
+/*子选择器，选择指定标签元素的---第一代子元素->使用Class*/
+.ul>li{
+  font-family:"Times New Roman";
+}
+
+/*
+包含选择器语法---选择指定标签元素的---所有子元素
+#left li｛。。。；｝
+*/
+
 #Right{
   background-color:#A9A9A9;
   height:500px;
@@ -50,3 +64,8 @@ p{
   text-align:center;
   clear:both;
 }
+
+/*
+通用选择器语法
+*｛。。。。;｝
+*/

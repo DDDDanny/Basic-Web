@@ -1,0 +1,47 @@
+/*css是由两部分组成：selector选择器 和 Declarations声明
+一条声明包括：属性 和 属性值
+一条声明后以；结尾
+多条声明包含在｛｝中
+*/
+/*关联测试文件：K2.html*/
+/*------------------------------------------------------*/
+
+/*id选择器*/
+#divA{
+  width: 1000px;
+}
+
+#Header{
+  background-color:#008B8B;
+  height:20px;
+}
+
+/*class选择器*/
+.h3cla{
+  text-align:center;
+  margin-bottom:0;
+}
+
+#Left{
+  background-color:#5F9EA0;
+  height:500px;
+  width:300px;
+  float:left;
+}
+
+#Right{
+  background-color:#A9A9A9;
+  height:500px;
+  width:700px;
+  float:left;
+}
+
+#newspan{
+  color: blue;
+}
+
+#Footer{
+  background-color:#008B8B;
+  text-align:center;
+  clear:both;
+}

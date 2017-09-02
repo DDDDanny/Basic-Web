@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web Basic-Form</title>
+  </head>
+  <body>
+    <!-- <form class="" action="服务器文件" method="传送方式get/post"> -->
+    <form class="" action="" method="post">
+      <fieldset>
+        <!--为表单加入边框-->
+        <legend>用户基本信息</legend>
+        <!--lable中的for的值要与相应控件的id一致（>。<根本没用过for）-->
+        <label for="username">姓名：</label>
+        <input type="text" name="username" id="username">&nbsp;&nbsp;
+
+        <label>性别：</label>
+        <label for="sex-m">男</label>
+        <input type="radio" name="sex" value="men" id="sex-m">
+        <label for="sex-w">女</label>
+        <input type="radio" name="sex" value="women" id="sex-w">&nbsp;&nbsp;
+
+        <label for="pol">政治面貌：</label>
+        <select class="" name="political" id="pol">
+          <option value="1">群众</option>
+          <option value="2" selected>团员</option>
+          <option value="3">党员</option>
+        </select>
+        <hr>
+        <label for="pwd">密码：</label>
+        <input type="password" name="pwd" value="">
+        <hr>
+        <label for="self">自我介绍：</label><br>
+        <textarea name="self" rows="8" cols="80" placeholder="请输入相关信息" style="resize:none;"></textarea>
+        <!--resize属于样式的范畴-->
+        <input type="reset" name="reset" value="重置">
+        <input type="submit" name="submit" value="提交">
+      </fieldset>
+    </form>
+  </body>
+</html>

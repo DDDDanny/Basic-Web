@@ -26,6 +26,8 @@ a{
   padding: 10px 5px;
   text-align: center;
   text-decoration: none;/*删去下划线*/
+  color: black;
+  font-family: "黑体";
 }
 
 .active{

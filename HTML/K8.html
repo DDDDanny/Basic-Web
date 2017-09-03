@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Danny">
+    <link rel="stylesheet" href="../CSS/KC5.css">
+    <title>Web Basic-Paging</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <ul>
+            <div class="paging">
+              <a href="#" class="b">上一页</a>
+              <a href="#">
+                <span class="pgn">1</span>
+              </a>
+              <a href="#">
+                <span class="pgn">2</span>
+              </a>
+              <a href="#">
+                <span class="pgn">3</span>
+              </a>
+              <a href="#">
+                <span class="pgn">4</span>
+              </a>
+              <a href="#">
+                <span class="pgn">51</span>
+              </a>
+              <a href="#">
+                <span class="pgn">62</span>
+              </a>
+              <a href="#">
+                <span class="pgn">73</span>
+              </a>
+              <a href="#">
+                <span class="pgn">520</span>
+              </a>
+              <a href="#">
+                <span class="pgn">521</span>
+              </a>
+              <a href="#" class="n">下一页</a>
+            </div>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <hr><br>
+    <!-- 方法一：引入table标签，你用其自适应性，使分页居中 -->
+    <div class="paging2">
+      <a href="#" class="b">上一页</a>
+      <a href="#">
+        <span class="pgn">1</span>
+      </a>
+      <a href="#">
+        <span class="pgn">2</span>
+      </a>
+      <a href="#">
+        <span class="pgn">3</span>
+      </a>
+      <a href="#">
+        <span class="pgn">4</span>
+      </a>
+      <a href="#">
+        <span class="pgn">51</span>
+      </a>
+      <a href="#">
+        <span class="pgn">62</span>
+      </a>
+      <a href="#">
+        <span class="pgn">73</span>
+      </a>
+      <a href="#">
+        <span class="pgn">520</span>
+      </a>
+      <a href="#">
+        <span class="pgn">521</span>
+      </a>
+      <a href="#" class="n">下一页</a>
+    </div>
+    <br><hr><br>
+    <!-- 方法二：改变块元素为行内元素，利用text-align:center;进行居中 -->
+    <div class="paging3">
+      <a href="#" class="b">上一页</a>
+      <a href="#">
+        <span class="pgn3">1</span>
+      </a>
+      <a href="#">
+        <span class="pgn3">2</span>
+      </a>
+      <a href="#">
+        <span class="pgn3">3</span>
+      </a>
+      <a href="#">
+        <span class="pgn3">4</span>
+      </a>
+      <a href="#">
+        <span class="pgn3">51</span>
+      </a>
+      <a href="#">
+        <span class="pgn3">62</span>
+      </a>
+      <a href="#">
+        <span class="pgn3">73</span>
+      </a>
+      <a href="#">
+        <span class="pgn3">520</span>
+      </a>
+      <a href="#">
+        <span class="pgn3">521</span>
+      </a>
+      <a href="#" class="n">下一页</a>
+    </div>
+    <!-- 方法三：使div层的左端浮动到其父层的中间位置，再使div的子层左侧浮动至
+    div层的右侧中间位置 -->
+  </body>
+</html>

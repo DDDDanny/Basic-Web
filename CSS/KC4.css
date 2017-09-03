@@ -53,12 +53,13 @@ li a:hover, .dropdown:hover .pic{
 .dropdown-content{
   display: none;
   position: absolute;
+  margin-left: -35px;
   box-shadow: 2px 2px 2px #d9d6cf;
 }
 
 .dropdown:hover .dropdown-content{
   display: block;
-}/*Important！ 这里不能用.pic代替.dropdown*/
+}/*Important！ 这里不能用.pic代替.dropdown, 同级元素不能hover*/
 
 .dropdown-content a{
   width: 150px;
@@ -69,3 +70,8 @@ li a:hover, .dropdown:hover .pic{
   color: #ffffff;
   background-color: #dc0000;
 }
+
+#art{
+  border:1px solid #ccc;
+  border-width:1px 0px;
+}/*优化菜单栏*/

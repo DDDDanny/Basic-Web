@@ -2,7 +2,7 @@
 About HTML CSS
 ***
 # 学习计划
-+ HTML
++ [x]HTML
 + CSS
 - HTML5
 - CSS3

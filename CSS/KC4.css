@@ -20,14 +20,14 @@ li{
   float: left;
 }
 
-a{
+li a, .pic{
   display: block;
   width: 60px;
   padding: 10px 5px;
   text-align: center;
   text-decoration: none;/*删去下划线*/
   color: black;
-  font-family: "黑体";
+  font-family: "Microsoft Yahei";
 }
 
 .active{
@@ -35,7 +35,7 @@ a{
   background-color: #dc0000;
 }
 
-li a:hover{
+li a:hover, .dropdown:hover .pic{
   color: #ffffff;
   background-color: #dc0000;
 }
@@ -43,4 +43,29 @@ li a:hover{
 .about{
   float: right;
   margin-right: 30px;
+}
+
+/*以下是下拉菜单相关css*/
+.dropdown{
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  box-shadow: 2px 2px 2px #d9d6cf;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}/*Important！ 这里不能用.pic代替.dropdown*/
+
+.dropdown-content a{
+  width: 150px;
+  overflow: hidden;
+}
+
+.dropdown-content a:hover{
+  color: #ffffff;
+  background-color: #dc0000;
 }

@@ -1,0 +1,72 @@
+/*为K8仿百度分页设计提供css*/
+table{
+  margin: 0px auto;
+}
+
+ul{
+  padding: 0px;
+}
+body{
+  margin: 0px;
+}
+
+.paging{
+  display: inline;
+}
+
+span{
+  display: block;
+}
+
+.b, .n{
+  color:#38f;
+  border: 1px solid #ccc;
+  padding: 0px 20px;
+}
+.pgn{
+  color:#38f;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.pgn:hover, .n:hover, .b:hover{
+  background-color: #f2f8ff;
+  border: 1px solid #38f;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  line-height: 34px;
+  margin: 9px;
+}
+/*----------------------------------------------------*/
+.paging2{
+  text-align: center;
+}
+/*----------------------------------------------------*/
+.paging3{
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+.paging3 a{
+  position: relative;
+  left: -50%;/*这里的%是相对于父元素*/
+}
+
+.pgn3{
+  color:#38f;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.pgn3:hover{
+  background-color: #f2f8ff;
+  border: 1px solid #38f;
+}
+/*------------------------------------------------------*/

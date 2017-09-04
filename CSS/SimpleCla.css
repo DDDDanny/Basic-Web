@@ -1,0 +1,30 @@
+/*为简易计算器做CSS支持*/
+.SCbody{
+  margin: 25% 0px;
+  text-align: center;
+}
+
+.text{
+  margin: 0px 20px;
+  height: 25px;
+  border-radius: 5px;
+  box-shadow: 1px 0px #ccc;
+}
+
+select{
+  height: 25px;
+  width: 70px;
+}
+
+option{
+  font-size: 300px;
+  text-align: center;
+}
+
+#act{
+  -webkit-appearance:button;
+  height: 25px;
+  width: 70px;
+  font-size: 15px;
+  border-radius: 5px;
+}

@@ -1,0 +1,60 @@
+/*选项卡切换相关css*/
+/*设置全局具有共性的样式*/
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*设置特性样式-导航*/
+.taptitle{
+  border-bottom: 1px solid #ccc;
+  height: 32px;
+}
+.taptitle li{
+  display: inline-block;
+  line-height: 30px;
+  width: 60px;
+  height: 30px;
+  float: left;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin: 0px 5px;
+}
+.taptitle:hover{
+  cursor: pointer;
+}
+.taptitle  .act{
+  border-top: 2px solid red;
+  border-bottom: 2px solid #ffffff;
+}
+/*设置特性样式-内容*/
+.maindiv{
+  width: 275px;
+  height: 190px;
+  margin: 20px auto;
+}
+.maindiv div{
+  border: 1px solid #ccc;
+
+}
+.maindiv div li{
+  height: 30px;
+  line-height: 30px;
+  text-indent: 8px;
+}
+
+.txt{
+  display: none;
+}
+
+.show{
+  display: block;
+}

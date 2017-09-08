@@ -16,11 +16,11 @@ ul{
   overflow: hidden;/*为元素添加自适应高度*/
 }
 
-li{
+ul li{
   float: left;
 }
 
-li a, .pic{
+li a{
   display: block;
   width: 60px;
   padding: 10px 5px;
@@ -35,7 +35,7 @@ li a, .pic{
   background-color: #dc0000;
 }
 
-li a:hover, .dropdown:hover .pic{
+li a:hover{
   color: #ffffff;
   background-color: #dc0000;
 }
@@ -46,32 +46,30 @@ li a:hover, .dropdown:hover .pic{
 }
 
 /*以下是下拉菜单相关css*/
-.dropdown{
-  display: inline-block;
-}
-
-.dropdown-content{
-  display: none;
+#dropdown{
   position: absolute;
-  margin-left: -35px;
-  box-shadow: 2px 2px 2px #d9d6cf;
+  width: 110px;
+  list-style-type: none;
+  left:300px;
+  top:55px;
+  box-shadow: 0px 2px 2px #d9d6cf;
+  font-size: 15px;
+  /*border: 1px solid #dc0000;*/
 }
 
-.dropdown:hover .dropdown-content{
+#dropdown a{
+  float: none;
+  width: 100px;
+  margin: 0px;
+}
+.no{
+  display: none;
+}
+
+.show{
   display: block;
-}/*Important！ 这里不能用.pic代替.dropdown, 同级元素不能hover*/
-
-.dropdown-content a{
-  width: 150px;
-  overflow: hidden;
 }
-
-.dropdown-content a:hover{
-  color: #ffffff;
-  background-color: #dc0000;
-}
-
-#art{
+.art{
   border:1px solid #ccc;
   border-width:1px 0px;
 }/*优化菜单栏*/

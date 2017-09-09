@@ -8,28 +8,34 @@ body{
   margin: 100px auto;
   top:100px;
 }
+
 td{
   border: 3px solid #ccc;
   border-top: 1px solid #ffffff;
   padding: 3px 30px;
 }
-
+#food td{
+  border: none;
+  padding: 0px;
+  text-align: center;
+}
 #num td{
   border: none;
 }
 
 #pic{
   position: fixed;
-  top: 100px;
-  right: 1520px;
+  top: 125px;
+  /*right: 1520px;*/
+  /*left: 80px;*/
 }
 
 #pic2{
   position: absolute;
+  top:125px;
   float: right;
-  right: 80px;
+  right: 38px;
 }
-
 h3{
   margin-top: 100px;
   text-align: center;
@@ -63,7 +69,7 @@ h1{
 
 .pic3{
   /*float: left;*/
-  margin: 0px 65px;
+  margin: 0px 60px;
 }
 
 .date{
@@ -78,3 +84,12 @@ h1{
   font-size: 50px;
   font-family: "Zapfino";
 }
+/*.hide{
+  position: relative;
+  display: none;
+}
+
+.show{
+  position: relative;
+  display: run-in;
+}*/

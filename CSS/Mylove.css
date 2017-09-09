@@ -1,0 +1,80 @@
+/*全局共有css*/
+body{
+  margin: 0;
+}
+#table{
+  position: relative;
+  border-collapse: collapse;
+  margin: 100px auto;
+  top:100px;
+}
+td{
+  border: 3px solid #ccc;
+  border-top: 1px solid #ffffff;
+  padding: 3px 30px;
+}
+
+#num td{
+  border: none;
+}
+
+#pic{
+  position: fixed;
+  top: 100px;
+  right: 1520px;
+}
+
+#pic2{
+  position: absolute;
+  float: right;
+  right: 80px;
+}
+
+h3{
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 1px 1px #ccc;
+}
+
+h1{
+  margin-top: 80px;
+  text-align: center;
+  text-shadow: 3px 3px #ccc;
+}
+
+#count{
+  font-size: 100px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: #00b0cf;
+  color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 3px 3px #ccc;
+}
+
+.font, .font2{
+  font-size: 50px;
+  color: #ff5983;
+}
+
+.font2{
+  color: #5ed5d1;
+}
+
+.pic3{
+  /*float: left;*/
+  margin: 0px 65px;
+}
+
+.date{
+  margin: 30px 450px;
+}
+
+.datename{
+  font-size: 30px;
+  font-family: "Zapfino";
+}
+.datenum{
+  font-size: 50px;
+  font-family: "Zapfino";
+}

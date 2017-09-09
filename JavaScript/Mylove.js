@@ -11,9 +11,9 @@ document.getElementById('month').innerHTML = month+1;
 document.getElementById('day').innerHTML = day;
 document.getElementById('count').innerHTML = 29 - day;
 
-// var pic = document.getElementById('pic');
-// pic.style.right = "((29 - day - 1) * 80)px";
-// console.log((29 - day - 1) * 80);
+var pic = document.getElementById('pic');
+var nume = ((29 - day + 1) * 76 - 38);//将距离转化为数学模型
+pic.style.right = nume+"px";//使用js变量调整css样式
 
 function clock()
 {
@@ -31,3 +31,13 @@ setInterval(clock , 1000);
 /*
 ..........
 */
+window.onload = function() {
+  var like = document.getElementsByName('likefood');
+  var jud = 19 - (29 - day);
+  for (var i = 0; i < like.length; i++) {
+    if (i <= jud) {
+      like[i].innerHTML = "";
+    }
+  }
+  //console.log(like.length);
+};

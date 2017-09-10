@@ -4,10 +4,7 @@
     <meta charset="utf-8" name="author" content="Danny">
     <meta name="keywords" content="table">
     <title>Web Basic-Table</title>
-    <!-- <script type="text/javascript">
-      var Apc = document.getElementById('Ap').innerHTML;
-      console.log(Apc);
-    </script> -->
+
     <!-- 获取表格中的值，进行自动计算 -->
   </head>
   <body>
@@ -18,10 +15,10 @@
         <th>num</th>
       </thead>
 
-      <tbody>
+      <tbody id="main">
         <tr>
           <td>A</td>
-          <td id="AP">3</td>
+          <td id="Ap">3</td>
           <td >5</td>
         </tr>
 
@@ -34,14 +31,26 @@
         <tr>
           <td>C</td>
           <td>1</td>
-          <td>6</td>
+          <td>5</td>
         </tr>
       </tbody>
 
       <tfoot>
         <th>total</th>
-        <th colspan="2" id="add">33</th>
+        <th colspan="2" id="add"></th>
       </tfoot>
     </table>
+    <script type="text/javascript">
+      var Apc = document.getElementById('main');
+      var trnum = Apc.getElementsByTagName('tr');
+      var sum = 0;
+
+      for (var i = 0; i < trnum.length; i++) {
+        var tdnum = trnum[i].getElementsByTagName('td');
+        sum = sum + parseInt(tdnum[1].innerHTML) * parseInt(tdnum[2].innerHTML);
+      }
+      document.getElementById('add').innerHTML = sum;
+
+    </script>
   </body>
 </html>

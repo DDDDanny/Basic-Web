@@ -6,9 +6,10 @@ About HTML CSS
 + [x] CSS
 + [x] HTML5<仅了解>
 + [x] CSS3<仅了解>
-- [ ] JavaScript
++ [x] JavaScript基础
 - [ ] JQuery
 - [ ] AJAX
 # 实战训练
 + [ ] HTML5
 - [ ] CSS3
++ [ ] JavaScript深入学习

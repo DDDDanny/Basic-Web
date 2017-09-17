@@ -7,7 +7,7 @@ About HTML CSS
 + [x] HTML5<仅了解>
 + [x] CSS3<仅了解>
 + [x] JavaScript基础
-- [ ] JQuery
+- [x] JQuery
 - [ ] AJAX
 # 实战训练
 + [ ] HTML5

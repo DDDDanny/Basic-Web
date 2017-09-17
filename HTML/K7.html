@@ -4,25 +4,31 @@
     <meta charset="utf-8">
     <meta name="author" content="Danny">
     <link rel="stylesheet" href="../CSS/KC4.css">
-    <script src="../JavaScript/ForK7.js"></script>
+    <!-- <script src="../JavaScript/ForK7.js"></script> -->
     <title>Web Basic-NavBar</title>
   </head>
   <body>
     <nav>
-      <ul>
+      <ul id="one">
         <li><a class="active" href="#">首页</a></li>
         <li><a href="#">滚动</a></li>
         <li><a href="#">国际</a></li>
         <li><a href="#">社会</a></li>
         <li id="pic"><a href="#">图片</a>
-          <div id="dropdown" class="no">
-            <a class="art" href="#">社会图片</a>
-            <a class="art" href="#">艺术图片</a>
-            <a class="art" href="#">人物图片</a>
-          </div>
+          <ul class="dropdown">
+            <li><a href="#">社会图片</a></li>
+            <li><a href="#">艺术图片</a></li>
+            <li><a href="#">人物图片</a></li>
+          </ul>
         </li>
         <li><a href="#">视频</a></li>
-        <li><a href="#">军事</a></li>
+        <li><a href="#">军事</a>
+          <ul class="dropdown">
+            <li><a href="#">社会图片</a></li>
+            <li><a href="#">艺术图片</a></li>
+            <li><a href="#">人物图片</a></li>
+          </ul>
+        </li>
         <li><a href="#">更多</a></li>
         <li class="about"><a href="#">关于</a></li>
       </ul>

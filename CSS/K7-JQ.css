@@ -1,0 +1,65 @@
+/**
+ * For K7-JQ
+ */
+
+ *{
+   margin: 0px;
+   padding: 0px;
+ }
+
+ nav{
+   box-shadow: 0px 2px 2px #d9d6cf;
+   margin: 20px 0px;
+ }
+
+ #one{
+   border-top-style: solid;
+   border-top-color: #dc0000;
+   list-style-type: none;
+   overflow: hidden;/*为元素添加自适应高度*/
+ }
+
+ li{
+   float: left;
+ }
+
+ li a{
+   display: block;
+   width: 60px;
+   padding: 10px 5px;
+   text-align: center;
+   text-decoration: none;/*删去下划线*/
+   color: black;
+   font-family: "Microsoft Yahei";
+ }
+
+ .active{
+   color: #ffffff;
+   background-color: #dc0000;
+ }
+
+ li a:hover{
+   color: #ffffff;
+   background-color: #dc0000;
+ }
+
+ .about{
+   float: right;
+   margin-right: 30px;
+ }
+
+ /*以下是下拉菜单相关css*/
+ .dropdown{
+   box-shadow: 0px 2px 2px #d9d6cf;
+   position: absolute;
+   display: none;
+ }
+ .dropdown li{
+   float: none;
+   list-style-type: none;
+ }
+
+ .dropdown li a{
+   width: 100px;
+   border-top: 1px solid #ccc;
+ }

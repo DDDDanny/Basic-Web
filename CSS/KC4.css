@@ -1,13 +1,15 @@
 /*为K7提供css样式*/
-body{
+*{
   margin: 0px;
+  padding: 0px;
 }
 
 nav{
   box-shadow: 0px 2px 2px #d9d6cf;
+  margin: 20px 0px;
 }
 
-ul{
+#one{
   /*width: 100%;*/
   border-top-style: solid;
   border-top-color: #dc0000;
@@ -16,8 +18,9 @@ ul{
   overflow: hidden;/*为元素添加自适应高度*/
 }
 
-ul li{
+li{
   float: left;
+  /*position: relative;*/
 }
 
 li a{
@@ -46,30 +49,23 @@ li a:hover{
 }
 
 /*以下是下拉菜单相关css*/
-#dropdown{
-  position: absolute;
-  width: 110px;
-  list-style-type: none;
-  left:300px;
-  top:55px;
-  box-shadow: 0px 2px 2px #d9d6cf;
-  font-size: 15px;
-  /*border: 1px solid #dc0000;*/
-}
-
-#dropdown a{
-  float: none;
-  width: 100px;
-  margin: 0px;
-}
-.no{
+.dropdown{
   display: none;
+  box-shadow: 0px 2px 2px #d9d6cf;
+  position: absolute;
+  /*left: 260px;
+  top: 59px;*/
+}
+.dropdown li{
+  float: none;
+  list-style-type: none;
 }
 
-.show{
+.dropdown li a{
+  width: 100px;
+  border-top: 1px solid #ccc;
+}
+
+#one li:hover .dropdown{
   display: block;
 }
-.art{
-  border:1px solid #ccc;
-  border-width:1px 0px;
-}/*优化菜单栏*/

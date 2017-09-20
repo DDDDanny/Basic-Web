@@ -9,7 +9,7 @@ var day = mydate.getDate();
 document.getElementById("year").innerHTML = year;
 document.getElementById('month').innerHTML = month+1;
 document.getElementById('day').innerHTML = day;
-document.getElementById('count').innerHTML = 29 - day;
+document.getElementById('count').innerHTML = "0"+(29 - day);
 
 var pic = document.getElementById('pic');
 var nume = ((29 - day + 1) * 76 - 38);//将距离转化为数学模型
